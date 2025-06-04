@@ -2,10 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  components: true,
   extends: [
       ['github:travelspun/include-site', { auth: process.env.GITHUB_TOKEN,  install: true }],
       // '../app-base-tsmg', // base app module
     ],
+    
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
