@@ -39,4 +39,4 @@ jobs:
         uses: nuxt-hub/action@v1
         id: deploy
         with:
-          project-key: poc-tsmg-nlzv
+          project-key: poc-tsmg-h338
